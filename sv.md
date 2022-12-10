@@ -18,4 +18,4 @@
     <p><samp>File not found.<br>Press F1 to continue</samp></p>
 ```
 
-![Это опциональный alt-text](/monkey.jpg)
+![Это опциональный супер alt-text](/monkey.jpg)
