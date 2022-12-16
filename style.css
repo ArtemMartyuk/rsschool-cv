@@ -5,7 +5,6 @@
   }
 
  header,main,footer {
-    border: 1px solid red;
     background-color: #ABB2BF;
   }
 
@@ -38,14 +37,14 @@
     transition: .3s;
   }
 
-  .section-item a {
+  /* .section-item a {
     color: #941db1;
     text-decoration: none;  
     transition: color 0.5s;
   }
   .section-item a:hover {
     color: #3d0fe4;
-  }
+  } */
 
   .main-container {
     display: flex;
@@ -71,7 +70,7 @@
     line-height: 1.5;
   }
 
-  /* Пример стилизации заголовков: */
+  /* Cтилизации заголовков: */
 
 .section-title {
   font-size: 20px;
@@ -82,45 +81,34 @@
   font-style: inherit;
 }
 
-/* Пример стилизации ссылок: */
+  /* Cтилизации main заголовка: */
+/* 
+  .section-title-main {
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #000000;
+    font-style: inherit; */
 
-.link {
-  text-decoration: none;
-  color: #7b837c;
-  transition: color 0.5s;
-  text-decoration: none;
-}
-
-.link:hover {
-  color: #5d7260;
-}
-
-/* Пример кода маркеров списка
-
-.section-item {
-  position: relative;
-  padding-left: 30px;
-}
-
-.section-item::before {
-  content: "";
-  position: absolute;
-  top: 8px;
-  left: 0px;
-  width: 10px;
-  height: 10px; 
-  border: 1px solid #829985;
-  border-radius: 50%;
-} */
-
+/* line */
 hr {
 width: 100%;
-align: left;
 color: black;
 height: 3px;
 }
 
-.rs {
-    width: 10%;
-    align: right;
+/* img rs */
+.rs {width: 160px;}
+
+ /* profile */
+.profile-area {
+    display: flex;
+    justify-content: space-around;
+}
+
+.profile-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
