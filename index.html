@@ -4,42 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cv</title>
+    <title>CV</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="assets/icon.ico">
 </head>
 <body>
+    <nav class="nav">
+        <ul class="nav-list">
+            <li class="nav-item"><a href="#aboutme" class="nav-link">About Me </a></li>
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+          <li class="nav-item"><a href="#project" class="nav-link">Project</a></li>
+        </ul>
+      </nav>
+
+      <p></p>
     <header>
-        <div class="container">1</div>
-        <nav class="nav">
-            <ul class="nav-list">
-              <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-              <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
-              <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-            </ul>
-          </nav>
+        <img src="monkey.jpg" alt="img">
+        <aside><div class="container">Artem Martyuk</div>
+        Front-End Developer</aside>
+       
     </header>
+    <p></p>
     <main>
         <div class="container">
-            <section class="section" id="profile"><h1 class="section-title">Артем</h1></section>
-            <section class="section" id="skills">Skills</section>
-            <section class="section" id="project">Project</section>
-            <section class="section" id="contact">Comtact</section>
-            <section class="section" id="code">Code</section>
-            <section class="section" id="education">Education</section>
-            <section class="section" id="courses">Courses</section>
-            <section class="section" id="languages">languages</section>
-
-
-
-
-
-
+            <section class="section" id="profile">
+                <h1 class="section-title">About Me</h1>
+                <hr>
+                <p>I am a student of Grodno State Technical University. My specialty is ingener. And now I am a beginner Front-End developer.
+                    My main qualities are the ability to work in a team and the ability to learn quickly.</p>
+            </section>
+                <hr>
+            </section>
+            <section class="section" id="project">
+                <h1 class="section-title">Project</h1>
+                <a href="https://artemmartyuk.github.io/rsschool-cv/">Portfolio RSSchool</a>
+                <hr>
+            </section>
+            <section class="section" id="contact">
+                <h1 class="section-title">Contact</h1>
+                <hr>
+            </section>
+            <section class="section" id="code">
+                <h1 class="section-title">Code</h1>
+                <pre>
+                    <code>function checkParent (src, dest) {<Br>
+                        while (src != null) {<Br>
+                          if (src.tagName == dest) return src<Br>
+                           src = src.parentElement<Br>
+                        }<Br>
+                        return null<Br>
+                       }</code>
+                    </pre>
+                <hr>
+            </section>
+            <section class="section" id="education">
+                <h1 class="section-title">Education</h1>
+                <hr>
+            </section>
+            <section class="section" id="courses">
+                <h1 class="section-title">Courses</h1>
+                <hr>
+            </section>
+            <section class="section" id="languages">
+                <h1 class="section-title">Languages</h1>
+                <hr>
+            </section>
 
         </div>
     </main>
+    <p></p>
+
     <footer>
-        <div class="container">3</div>
+        <div class="container">
+            <h2>2022</h2>
+            <img class="rs" src="assets/rs_school_js.svg" alt="rs">
+<a href="https://rs.school/js/">RSSchool</a>
+        </div>
     </footer>
 
     

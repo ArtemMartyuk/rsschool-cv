@@ -1,17 +1,13 @@
 
 * {
     box-sizing: border-box;
+    color: white;
   }
 
  header,main,footer {
     border: 1px solid red;
+    background-color: #ABB2BF;
   }
-
-  /* body {
-    min-height: 100vh;
-    margin: 0; 
-    padding: 0;
-  } */
 
   body {
     display: flex;
@@ -33,6 +29,7 @@
 
   html {
     scroll-behavior: smooth; 
+    background-color: #282C33;
   }
 
   .nav-link {
@@ -42,12 +39,12 @@
   }
 
   .section-item a {
-    color: #829985;
+    color: #941db1;
     text-decoration: none;  
     transition: color 0.5s;
   }
   .section-item a:hover {
-    color: #4d2323;
+    color: #3d0fe4;
   }
 
   .main-container {
@@ -72,7 +69,6 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 1.5;
-    color: #4d2323;
   }
 
   /* Пример стилизации заголовков: */
@@ -82,14 +78,15 @@
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 5px;
-  color: #829985;
+  color: #000000;
+  font-style: inherit;
 }
 
 /* Пример стилизации ссылок: */
 
 .link {
   text-decoration: none;
-  color: #829985;
+  color: #7b837c;
   transition: color 0.5s;
   text-decoration: none;
 }
@@ -115,3 +112,15 @@
   border: 1px solid #829985;
   border-radius: 50%;
 } */
+
+hr {
+width: 100%;
+align: left;
+color: black;
+height: 3px;
+}
+
+.rs {
+    width: 10%;
+    align: right;
+}
