@@ -32,19 +32,10 @@
   }
 
   .nav-link {
-    padding: 0 20px;
-    line-height: 50px;
+    padding: 0  10px;
+    line-height: 0px;
     transition: .3s;
   }
-
-  /* .section-item a {
-    color: #941db1;
-    text-decoration: none;  
-    transition: color 0.5s;
-  }
-  .section-item a:hover {
-    color: #3d0fe4;
-  } */
 
   .main-container {
     display: flex;
@@ -81,16 +72,6 @@
   font-style: inherit;
 }
 
-  /* Cтилизации main заголовка: */
-/* 
-  .section-title-main {
-    font-size: 50px;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    color: #000000;
-    font-style: inherit; */
-
 /* line */
 hr {
 width: 100%;
@@ -111,4 +92,10 @@ height: 3px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.contaner-nav {
+align-items: 100px;
+line-height: 0px;
+display: flex;
 }
