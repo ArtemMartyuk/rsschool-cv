@@ -1,0 +1,108 @@
+
+* {
+    box-sizing: border-box;
+    color: white;
+  }
+
+ header,main,footer {
+    background-color: #ABB2BF;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+
+  html {
+    scroll-behavior: smooth; 
+    background-color: #282C33;
+  }
+
+  .nav-link {
+    padding: 0  10px;
+    line-height: 0px;
+    transition: .3s;
+  }
+
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .section {
+    width: 50%;
+  }
+
+  @media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+
+  /* Пример стилизации шрифта страницы: */
+
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+
+  /* Cтилизации заголовков: */
+
+.section-title {
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #000000;
+  font-style: inherit;
+}
+
+/* line */
+hr {
+width: 100%;
+color: black;
+height: 3px;
+}
+
+/* img rs */
+.rs {
+  width: 160px;
+}
+
+/* img me */
+.me {
+  width: 250px;
+}
+
+ /* profile */
+.profile-area {
+    display: flex;
+    justify-content: space-around;
+}
+
+.profile-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contaner-nav {
+align-items: 100px;
+line-height: 0px;
+display: flex;
+}
